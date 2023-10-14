@@ -27,6 +27,10 @@ def specialoffer():
     # Cтраница с акцией
     return render_template('замени_меня.html')
 
-
+@app.route('/head')
+def specialoffer():
+    # Cтраница с акцией
+    return render_template('head.html')
+    
 if __name__ == "__main__":
     app.run()
